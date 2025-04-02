@@ -17,7 +17,7 @@ body {
     margin-left: auto;
     text-align: center;
     font-size: 16px;
-    color:rgb(220, 238, 255)
+    color:rgb(220, 238, 255);
   }
 
   #full-name {
@@ -25,9 +25,18 @@ body {
   }
   
   a {
-      text-decoration: none;
+    color: rgb(110, 207, 255);
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: rgb(184, 184, 184);
   }
   
   a:hover {
       text-decoration: underline; 
+  }
+
+  a:active {
+    color: rgb(220, 238, 255);
   }
