@@ -17,9 +17,12 @@ body {
     margin-left: auto;
     text-align: center;
     font-size: 16px;
+    color:rgb(220, 238, 255)
   }
-  
 
+  #full-name {
+    font-size: 24px;
+  }
   
   a {
       text-decoration: none;
