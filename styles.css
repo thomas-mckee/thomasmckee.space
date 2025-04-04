@@ -20,6 +20,11 @@ body {
     color:rgb(220, 238, 255);
   }
 
+  .social-media-link {
+    display: block;
+    padding: 3px;
+  }
+
   #full-name {
     font-size: 24px;
   }
