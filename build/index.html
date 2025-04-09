@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-zinc-900 text-neutral-100 min-h-screen">
+    <main>
+        <section id="hero" class="mx-10 h-screen flex flex-col items-center justify-center">
+            <!-- <div class="text-center text-5xl">
+                <h1>Hello, I'm  <span class="text-blue-400 font-semibold">Thomas</span>.</h1>
+                <h1 class="pb-5">I'm a computer engineering student.</h1>
+            </div> -->
+            <div class="text-center text-5xl pb-10">
+              <span id="text"></span><space class="cursor">|</space>
+            </div>
+            <a href="#about" class="text-4xl inline-block text-center text-blue-400 outline border-1 border-blue-400 px-6 py-1 rounded-xl hover:opacity-60">
+                About Me &DownArrow;
+            </a>
+        </section>
+
+        <header class="bg-zinc-800 sticky drop-shadow-xl top-0 z-10 bg-opacity-[0.90] blur-backdrop-filter">
+            <section class="py-3 text-xl">
+                <nav class="flex md:justify-end md:pr-5 lg:text-2xl justify-center space-x-6">
+                    <a href="#hero" class="hover:opacity-60 active:text-blue-400 active:opacity-100">Home</a>
+                    <a href="#about" class="hover:opacity-60 active:text-blue-400 active:opacity-100">About</a>
+                    <a href="#projects" class="hover:opacity-60 active:text-blue-400 active:opacity-100">Projects</a>
+                    <a href="#contact" class="hover:opacity-60 active:text-blue-400 active:opacity-100">Contact</a>
+                </nav>
+            </section>
+        </header>
+
+        
+        <section id="about" class="flex flex-col items-center">
+            <h1 class="underline text-5xl text-blue-400 flex justify-center pt-28 font-extrabold">About</h1>
+            <div class="mx-10 h-screen flex pt-32">
+              <p class="max-w-4xl text-left text-xl md:text-2xl">
+                Strongly driven Computer Engineering Co-op student at the University of Manitoba with industry engineering experience. Skilled in applying academic knowledge and technical skills to real-world projects. Strong communicator with leadership, organizational, and time management abilities. Dedicated to achieving goals and meeting deadlines effectively.
+              </p>
+            </div>
+        </section>
+
+        
+
+        <section id="projects" class="flex flex-col items-center justify-center">
+            <h1 class="underline text-5xl text-blue-400 flex justify-center pt-28 font-extrabold">Projects</h1>
+            <div class="mx-10 h-screen flex items-center justify-center">
+              <h1 class="lg:text-4xl md:text-3xl text-2xl font-bold">🚧 Under Construction 🚧</h1>
+            </div>
+
+            <!-- <div class="flex items-center gap-10 p-6">
+                <img src="./img/p1.png" alt="Project 1" class="max-w-lg max-h-max border-4 border-blue-400 rounded-lg">
+                <p class="text-left lg:text-2xl sm:text-xl">
+                    This is an image card that I built using <a href="https://www.youtube.com/watch?v=l7rce6IQDWs" target="_blank" class="text-blue-400 active:text-gray-400 hover:underline ">this</a> tutorial.
+                    The video card uses NAND gates and binary counters for horizontal and vertical synchronization.
+                    The image for the card is stored on an EEPROM, which is programmed using a custom EPROM programmer that I built. 
+                </p>
+            </div>     -->
+
+        </section>
+
+
+        <section id="contact" class="flex flex-col min-h-screen">
+          <h1 class="underline text-5xl text-blue-400 flex justify-center pt-28 font-extrabold">Contact</h1>
+          <div class="mx-10 flex-grow flex items-center justify-center">
+            <h1 class="lg:text-4xl md:text-3xl text-2xl font-bold">🚧 Under Construction 🚧</h1>
+          </div>
+          <footer id="footer" class="bg-zinc-800 py-4">
+            <div class="text-3xl flex justify-center items-center pb-5">
+                <a href="#hero" class="text-blue-400 outline outline-1 px-4 py-1 rounded-xl">
+                    &UpArrow;
+                </a>
+            </div>
+            <div class="flex justify-center items-center gap-4">
+              <figure>
+                <a href="mailto:thomasenmckee@gmail.com" target="_blank">
+                  <img src="./img/email.png" alt="Email" class="w-8 h-8 object-contain" />
+                </a>
+              </figure>
+              <figure>
+                <a href="https://github.com/thomasmckee3" target="_blank">
+                  <img src="./img/github.png" alt="GitHub" class="w-8 h-8 object-contain" />
+                </a>
+              </figure>
+              <figure>
+                <a href="https://www.linkedin.com/in/thomas-mckee-a844711a9/" target="_blank">
+                  <img src="./img/linkedin.png" alt="LinkedIn" class="w-8 h-8 object-contain" />
+                </a>
+              </figure>
+              <figure>
+                <a href="https://www.strava.com/athletes/32498521" target="_blank">
+                  <img src="./img/strava.png" alt="Strava" class="w-8 h-8 object-contain" />
+                </a>
+              </figure>
+            </div>
+            <p class="text-center pt-2 text-sm">Thomas McKee &copy; <span id="year">2025</span></p>
+          </footer>
+        </section>
+          
+    </main>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
