@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./build/css/style.css" />
 </head>
 <body class="bg-zinc-900 text-neutral-100 min-h-screen">
     <main>
@@ -34,19 +34,54 @@
 
         
         <section id="about" class="flex flex-col items-center">
-            <h1 class="underline text-5xl text-blue-400 flex justify-center pt-28 font-extrabold">About</h1>
-            <div class="mx-10 h-screen flex pt-32">
-              <p class="max-w-4xl text-left text-xl md:text-2xl">
-                Strongly driven Computer Engineering Co-op student at the University of Manitoba with industry engineering experience. Skilled in applying academic knowledge and technical skills to real-world projects. Strong communicator with leadership, organizational, and time management abilities. Dedicated to achieving goals and meeting deadlines effectively.
-              </p>
+          <h1 class="underline text-5xl text-blue-400 flex justify-center pt-24 font-extrabold">About</h1>
+        
+          <div class="mx-10 px-10 pt-12 flex flex-col lg:flex-row lg:space-x-32 items-center lg:items-start">
+            <p class="max-w-2xl text-left text-xl md:text-2xl">
+              I am a computer engineering Co-op student at the University of Manitoba with industry engineering experience. I am skilled in applying academic knowledge and technical skills to real-world projects. I'm a strong communicator with leadership, organizational, and time management abilities. <br><br>
+        
+              I am proficient in Java, Python, C, and I have experience using Git for version control. Currently, I am branching out into web design and database management and have begun learning HTML, CSS, Tailwind CSS, JavaScript and SQL!
+            </p>
+        
+            <div class="grid grid-cols-3 gap-4 mt-8 lg:mt-0 py-5 min-w-[320px] sm:min-w-[320px]">
+              <div class="sm:h-[100px] sm:w-[100px] h-[90px] w-[90px] rounded-lg bg-zinc-800 shadow flex items-center justify-center p-2">
+                <img class="object-contain h-full" src="./build/img/java.png" alt="Java">
+              </div>
+              <div class="sm:h-[100px] sm:w-[100px] h-[90px] w-[90px] rounded-lg bg-zinc-800 shadow flex items-center justify-center p-2">
+                <img class="object-contain h-full" src="./build/img/python.png" alt="Python">
+              </div>
+              <div class="sm:h-[100px] sm:w-[100px] h-[90px] w-[90px] rounded-lg bg-zinc-800 shadow flex items-center justify-center p-2">
+                <img class="object-contain h-full" src="./build/img/c.png" alt="C">
+              </div>
+              <div class="sm:h-[100px] sm:w-[100px] h-[90px] w-[90px] rounded-lg bg-zinc-800 shadow flex items-center justify-center p-2">
+                <img class="object-contain h-full" src="./build/img/git.png" alt="Git">
+              </div>
+              <div class="sm:h-[100px] sm:w-[100px] h-[90px] w-[90px] rounded-lg bg-zinc-800 shadow flex items-center justify-center p-2">
+                <img class="object-contain h-full" src="./build/img/html.png" alt="HTML">
+              </div>
+              <div class="sm:h-[100px] sm:w-[100px] h-[90px] w-[90px] rounded-lg bg-zinc-800 shadow flex items-center justify-center p-2">
+                <img class="object-contain h-full" src="./build/img/css.png" alt="CSS">
+              </div>
+              <div class="sm:h-[100px] sm:w-[100px] h-[90px] w-[90px] rounded-lg bg-zinc-800 shadow flex items-center justify-center p-2">
+                <img class="object-contain h-full" src="./build/img/tailwindcss.png" alt="Tailwind CSS">
+              </div>
+              <div class="sm:h-[100px] sm:w-[100px] h-[90px] w-[90px] rounded-lg bg-zinc-800 shadow flex items-center justify-center p-2">
+                <img class="object-contain h-full" src="./build/img/javascript.png" alt="JavaScript">
+              </div>
+              <div class="sm:h-[100px] sm:w-[100px] h-[90px] w-[90px] rounded-lg bg-zinc-800 shadow flex items-center justify-center p-2">
+                <img class="object-contain h-full" src="./build/img/sql.png" alt="SQL">
+              </div>
             </div>
+          </div>
         </section>
+        
+        
 
         
 
         <section id="projects" class="flex flex-col items-center justify-center">
-            <h1 class="underline text-5xl text-blue-400 flex justify-center pt-28 font-extrabold">Projects</h1>
-            <div class="mx-10 h-screen flex items-center justify-center">
+            <h1 class="underline text-5xl text-blue-400 flex justify-center pt-24 font-extrabold">Projects</h1>
+            <div class="mx-10 flex items-center justify-center my-64">
               <h1 class="lg:text-4xl md:text-3xl text-2xl font-bold">🚧 Under Construction 🚧</h1>
             </div>
 
@@ -63,8 +98,8 @@
 
 
         <section id="contact" class="flex flex-col min-h-screen">
-          <h1 class="underline text-5xl text-blue-400 flex justify-center pt-28 font-extrabold">Contact</h1>
-          <div class="mx-10 flex-grow flex items-center justify-center">
+          <h1 class="underline text-5xl text-blue-400 flex justify-center pt-24 font-extrabold">Contact</h1>
+          <div class="mx-10 flex-grow flex items-center justify-center my-32">
             <h1 class="lg:text-4xl md:text-3xl text-2xl font-bold">🚧 Under Construction 🚧</h1>
           </div>
           <footer id="footer" class="bg-zinc-800 py-4">
@@ -76,22 +111,22 @@
             <div class="flex justify-center items-center gap-4">
               <figure>
                 <a href="mailto:thomasenmckee@gmail.com" target="_blank">
-                  <img src="./img/email.png" alt="Email" class="w-8 h-8 object-contain" />
+                  <img src="./build/img/email.png" alt="Email" class="w-8 h-8 object-contain" />
                 </a>
               </figure>
               <figure>
                 <a href="https://github.com/thomasmckee3" target="_blank">
-                  <img src="./img/github.png" alt="GitHub" class="w-8 h-8 object-contain" />
+                  <img src="./build/img/github.png" alt="GitHub" class="w-8 h-8 object-contain" />
                 </a>
               </figure>
               <figure>
                 <a href="https://www.linkedin.com/in/thomas-mckee-a844711a9/" target="_blank">
-                  <img src="./img/linkedin.png" alt="LinkedIn" class="w-8 h-8 object-contain" />
+                  <img src="./build/img/linkedin.png" alt="LinkedIn" class="w-8 h-8 object-contain" />
                 </a>
               </figure>
               <figure>
                 <a href="https://www.strava.com/athletes/32498521" target="_blank">
-                  <img src="./img/strava.png" alt="Strava" class="w-8 h-8 object-contain" />
+                  <img src="./build/img/strava.png" alt="Strava" class="w-8 h-8 object-contain" />
                 </a>
               </figure>
             </div>
@@ -101,7 +136,7 @@
           
     </main>
 
-    <script src="./js/main.js"></script>
+    <script src="./build/js/main.js"></script>
 
 </body>
 </html>
