@@ -11,6 +11,7 @@
     .cursor {
         animation: blink 0.7s infinite;
     }
+    
 
     @keyframes blink {
         0%, 100% { opacity: 0; }

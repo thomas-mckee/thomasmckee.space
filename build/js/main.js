@@ -7,9 +7,9 @@ let index = 0;
 let charIndex = 0;
 let currentText = '';
 let isDeleting = false;
-const typingSpeed = 100;
+const typingSpeed = 75;
 const deletingSpeed = 50;
-const pauseTime = 3000;
+const pauseTime = 1000;
 
 const textElement = document.getElementById('text');
 
